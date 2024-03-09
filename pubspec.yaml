@@ -1,0 +1,32 @@
+name: my_ecommercial_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Karla
+      fonts:
+        - asset: fonts/Karla-Bold.ttf
+          weight: 700
+        - asset: fonts/Karla-Medium.ttf
+          weight: 500
+        - asset: fonts/Karla-Regular.ttf
+          weight: 400
