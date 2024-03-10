@@ -78,7 +78,7 @@ class WelcomePage extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: height * 0.045,
+            height: height * 0.02,
           ),
           Container(
             margin: EdgeInsets.symmetric(horizontal: width * 0.2),
@@ -96,7 +96,7 @@ class WelcomePage extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: height * 0.045,
+            height: height * 0.02,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,

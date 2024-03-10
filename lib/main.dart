@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:my_ecommercial_app/welcome_page.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
-      overlays: [SystemUiOverlay.bottom]);
+  //WidgetsFlutterBinding.ensureInitialized();
+  //SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
+  //    overlays: [SystemUiOverlay.bottom]);
   runApp(const MainApp());
 }
 
